@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #42554c;    
+}
+img{
+
+    width: 30px;
+    
+}
+.logo{
+    position: relative;
+    background: url(../img/fondo.jpg) no-repeat center center/cover;
+}
+.logo img{
+    width: 30%;
+    position: relative;
+}
+header{
+    width: 100%;
+    background: #42554c;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label:hover{
+
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+    flex-direction: row;
+}
+.menu li{
+    border-right: 1px solid #fff;
+}
+.menu li:hover{
+    background: rgba(0, 0, 0, 0.3);
+
+    
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*----------------busqueda------------------*/
+
+.busqueda{
+
+    width: 20.5%;
+    height: 800px;
+    background: #42554c;
+    color: #fff;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    box-sizing: border-box;
+    padding: 30px 30px;
+
+}
+
+.busqueda h1{
+    margin: 1;
+    padding: -1 0 20px;
+    text-align: center;
+    font-style: 22px;
+}
+
+.busqueda label{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block; 
+}
+.busqueda input{
+
+    width: 99%;
+    margin-bottom: 20px;
+    background:#8bcec0;;
+}
+.busqueda input[type="text"]{
+    border: 	none;   
+    border-bottom: 1px solid #fff;
+    background: #8bcec0;
+    outline: none;
+    height: 40px;
+ 
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.busqueda input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #546d69;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    width: 100%;
+}
+.busqueda input[type="submit"]:hover{
+    color: black;
+    background: white; 
+
+}
+.box{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 	none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #8bcec0;
+
+}
+/*-------------MAPA---------------------*/
+main{
+    
+    width: 85%;
+    height: 100%;
+    max-width: 850px;
+    margin: 0 20.5%;
+    padding: 0%;
+    border: 0;
+}
+#mapid{
+    width: 1510px;
+    height: 800px;
+}
